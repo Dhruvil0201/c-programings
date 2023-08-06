@@ -2,7 +2,7 @@
 
 main()
 {
-    int i=2, n;
+    int i, n=0;
   
     printf("Print all even numbers till: ");
     scanf("%d", &n);
@@ -10,12 +10,12 @@ main()
     printf("All even numbers from 1 to %d are: \n \n", n);
 
     
-    while(i<=n)
+    while(n>=i)
     {
-        printf("%d\t", i);
+        printf("%d\t",n);
 
         
-        i += 2;
+        n=n-2;
     }
 
 }
