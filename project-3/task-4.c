@@ -3,7 +3,7 @@ main()
 {
     int num, sum=0, fD, lD;
 
-    printf("Enter any number to find sum of first and last digit: ");
+    printf("Enter any digit of Number: ");
     scanf("%d", &num);
     
     lD = num % 10;
